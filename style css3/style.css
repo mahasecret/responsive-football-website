@@ -166,3 +166,35 @@ footer img{
 .logo{
     color: gray;
 }
+
+/*--------------
+ -Media Quaries -
+ -----------------*/
+/* Mobie device */
+@media only screen and (max-width:688px) {
+    body{
+        margin: 0%;
+    }
+    .banner-part{
+        
+        display: block;
+        margin-bottom: 40px;
+        
+
+    }
+    .banner-image img{
+        width: 69%;
+        height: 350px;
+        padding-left: 45px;
+        margin-bottom: 40px;
+        
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 7px;
+    }
+    .two-players{
+        display: block;
+        margin-left: 0px;
+    }
