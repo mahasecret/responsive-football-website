@@ -11,6 +11,7 @@ h1{
 .banner-part{
     display: flex;
     background-color: rgba(0, 0, 255, 0.747);
+    margin-bottom: 70px;
    
        
 }
@@ -40,4 +41,42 @@ h1{
     height: 546px;
     padding-top: 63px;
     padding-left: 96px;
+}
+/* player styles */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    padding-left: 210px;
+    
+    
+    
+    
+       
+    
+}
+.player{
+    /* width: 100%; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 250px;
+    box-shadow: 5px 5px 17px 1px rgba(128, 128, 128, 0.493);
+    background-color: white;
+    margin-bottom: 30px;
+    
+}
+.player:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+    
+}
+.player img{
+    padding-top: 15px;
+    padding-right: 15px;
+    height: 230px;
+    width: 250px;
+    
 }
