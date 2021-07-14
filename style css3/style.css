@@ -5,7 +5,7 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 /* banner-part */
 .banner-part{
@@ -49,6 +49,7 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     width: 70%;
     padding-left: 210px;
+    margin: 50px;
     
     
     
@@ -70,7 +71,7 @@ h1{
 .player:hover{
     background-color: black;
     color: white;
-    transition: 0.8s;
+    transition: 1s;
     
 }
 .player img{
@@ -79,4 +80,89 @@ h1{
     height: 230px;
     width: 250px;
     
+}
+/* bonous part */
+.famous-players{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+}
+.two-players{
+    display: flex;
+    margin-left: 320px;
+    margin-bottom: 150px; 
+    
+    
+}
+.naymer{
+    padding-right: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    
+}
+.naymer:hover{
+    background-color: gray;
+    transition: 1s;
+    color: black;
+}
+.naymer img{
+    height: 200px;
+}
+.naymer a{
+    background-color: #E02C6D;
+    padding: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.naymer a:hover{
+    background-color: black;
+    color: blanchedalmond;
+    transition: 0.5s;
+}
+.messi{
+    padding-right: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    
+}
+.messi:hover{
+    background-color: gray;
+    transition: 1s;
+    color: black;
+}
+.messi img{
+    height: 200px;
+}
+.messi a{
+    background-color: #E02C6D;
+    padding: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.messi a:hover{
+    background-color: black;
+    color: blanchedalmond;
+    transition: 0.5s;
+}
+h2{
+    font-size: 30px;
+}
+/* Footer images */
+footer{
+    text-align: center;
+    
+}
+
+footer img{
+    width: 353px;
+    height: 100px;
+    margin-right: 20px;
+}
+.logo{
+    color: gray;
 }
