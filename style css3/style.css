@@ -1,0 +1,43 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+/* banner-part */
+.banner-part{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.747);
+   
+       
+}
+.banner-part:hover{
+    background-color: mediumslateblue;
+    transition: 0.5s;
+}
+.cupa-button{
+    width: 50%;
+    color:#FFFFFF;
+    padding-left: 90px; 
+    padding-top: 140px; 
+    
+}
+.cupa-button a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 12px;
+}
+.cupa-button a:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+.banner-image img{
+    width: 90%;
+    height: 546px;
+    padding-top: 63px;
+    padding-left: 96px;
+}
